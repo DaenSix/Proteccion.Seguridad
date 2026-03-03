@@ -1,8 +1,7 @@
 # 🌍 Proyecto 1: Protección Medioambiental
 
-> 📌 Repositorio: **informática-ambiental**  
-> 🤝 Trabajo colaborativo  
-> 🎓 Asignatura: Informática  
+> 📌 Repositorio: **proteccion.seguridad**  
+> 🎓 Asignatura: Fundamentos del Hardware
 
 ---
 
