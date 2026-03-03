@@ -28,3 +28,15 @@
 
 ---
 
+1. ¿Qué es la contaminación ambiental?
+   La contaminacion ambiental es el deterioro del medio ambiente causado por la
+   introduccion de sustancias o materiales que son dañinos para el aire, agua o
+   incluso el suelo.
+   
+![Contaminación del suelo](suelo_746x419.jpg)
+
+   La contaminacion afecta a animales, plantas e incluso a las personas
+   provocando problemas de salud con el tiempo y contribuyendo al cambio
+   climatico, es importante ejercer medidas como reciclas y usar los recursos
+   de forma renovable.
+   
