@@ -51,7 +51,7 @@ ordenadores, impresoras y otros aparatos tecnológicos.
 <li>Ordenadores que se vuelven lentos con nuevas versiones de programas.</li>
 </ul>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Electronic_waste.jpg" width="500">
+<img src="https://es.linkedin.com/pulse/la-obsolescencia-programada-c%C3%B3mo-abordarla-en-sociedad-manuel-vargas" width="500">
 
 <hr>
 
