@@ -51,7 +51,7 @@ ordenadores, impresoras y otros aparatos tecnológicos.
 <li>Ordenadores que se vuelven lentos con nuevas versiones de programas.</li>
 </ul>
 
-<img src="https://es.linkedin.com/pulse/la-obsolescencia-programada-c%C3%B3mo-abordarla-en-sociedad-manuel-vargas" width="500">
+<img src="https://media.licdn.com/dms/image/v2/C4D12AQFsB5DniJ7QwA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1548210167592?e=2147483647&v=beta&t=HUSrL5nux330hCt5o1qwqTs9DMdvevFo20OdUxr8vHY">
 
 <hr>
 
