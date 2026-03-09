@@ -173,11 +173,6 @@ El reciclaje de un ordenador no es como el de un cartón. Sigue un proceso compl
 3.  **Trituración:** El resto se tritura en pequeñas piezas.
 4.  **Separación electromagnética:** Mediante imanes y corrientes de aire, se separan los plásticos de los metales (hierro, aluminio, cobre y metales preciosos).
 
-
-
-[Image of electronic waste recycling process flowchart]
-
-
 <div class="destacado-texto">
   <strong>¿Qué podemos hacer nosotros?</strong> Lo más importante es alargar la vida útil del equipo. Si un PC va lento, podemos ampliar la RAM o poner un disco SSD en lugar de comprar uno nuevo. Si realmente ya no sirve, el 100% debe ir a una planta de tratamiento autorizada.
 </div>
