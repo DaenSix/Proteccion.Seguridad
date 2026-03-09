@@ -161,13 +161,12 @@ Este proyecto lo hemos desarrollado entre tres personas. Así es como nos hemos 
 <div class="tarjeta-autor borde-alvaro" markdown="1">
 ### Álvaro
 * Búsqueda y redacción del **Punto 3** (Obsolescencia programada).
-* Búsqueda y redacción del **Punto 4** (Informática ecológica).
 * Añadir medidas y soluciones para evitar la contaminación.
 </div>
 
 <div class="tarjeta-autor borde-juan" markdown="1">
 ### Juan Antonio
-* Redacción del **Punto 5** (Referencias y Autores).
+* Búsqueda y redacción del **Punto 4** (Informática ecológica).
 * Comprobación de que cumplimos todos los criterios de la nota.
 </div>
 
