@@ -116,7 +116,7 @@ Podemos clasificar los residuos informáticos en tres grandes grupos:
 
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/E-waste_in_a_dumpster.jpg/800px-E-waste_in_a_dumpster.jpg" class="img-estilo" alt="Contenedor lleno de residuos electrónicos variados">
+<img src="placas.jpg" class="img-estilo" alt="Contenedor lleno de residuos electrónicos variados">
 
 </div>
 
