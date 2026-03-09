@@ -81,6 +81,38 @@ title: Residuos Informáticos
     border: 1px solid #ffe066;
     margin: 20px 0;
   }
+
+  /* --- BOTONES DE NAVEGACIÓN ESTILO MEJORADO --- */
+  .nav-botones {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+    border-top: 2px solid #eaecef;
+    padding-top: 30px;
+  }
+  .btn-nav {
+    flex: 1;
+    min-width: 160px;
+    padding: 14px 20px;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .btn-nav:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    filter: brightness(1.1);
+  }
+  /* Colores específicos según el autor/sección */
+  .btn-nav.anterior { background-color: #0366d6; } /* Azul Joaquín */
+  .btn-nav.volver { background-color: #6a737d; }   /* Gris neutro */
+  .btn-nav.siguiente { background-color: #d73a49; } /* Rojo Álvaro */
 </style>
 
 <div markdown="1">
@@ -113,8 +145,6 @@ Podemos clasificar los residuos informáticos en tres grandes grupos:
 * **Equipos de informática y telecomunicaciones:** Servidores, portátiles, tablets y móviles.
 * **Periféricos y accesorios:** Teclados, ratones, cables, cargadores y auriculares.
 * **Electrónica de consumo:** Monitores, televisores y dispositivos inteligentes (IoT).
-
-
 
 <img src="placas.jpg" class="img-estilo" alt="Contenedor lleno de residuos electrónicos variados">
 
@@ -157,8 +187,6 @@ Uno de los mayores escándalos de los residuos informáticos es su **transporte 
 
 <img src="giga.jpg" class="img-estilo" alt="Trabajadores en el vertedero de Agbogbloshie, Ghana">
 
-
-
 En estos lugares, miles de personas (incluidos niños) trabajan quemando plásticos para recuperar el cobre de los cables, exponiéndose a enfermedades crónicas y destruyendo el suelo local de forma permanente.
 
 </div>
@@ -180,7 +208,7 @@ El reciclaje de un ordenador no es como el de un cartón. Sigue un proceso compl
 ---
 
 <div class="nav-botones">
-  <a href="contaminacion.html" class="btn-nav volver">⬅️ Anterior: Contaminación</a>
+  <a href="contaminacion.html" class="btn-nav anterior">⬅️ Anterior: Contaminación</a>
   <a href="index.html" class="btn-nav volver">🏠 Inicio</a>
   <a href="obsolescencia.html" class="btn-nav siguiente">Siguiente: Obsolescencia ➡️</a>
 </div>
