@@ -46,9 +46,6 @@ title: Referencias y Autores
     text-decoration: none;
     font-weight: bold;
   }
-  .lista-referencias a:hover {
-    text-decoration: underline;
-  }
 
   /* --- TARJETAS DE AUTORES (GRID Y COLORES) --- */
   .grid-autores {
@@ -75,7 +72,7 @@ title: Referencias y Autores
     border-bottom: 1px solid #eaecef;
   }
   
-  /* Colores específicos para cada autor (Bordes superiores y títulos) */
+  /* Colores específicos para cada autor */
   .borde-joaquin { border-top: 5px solid #0366d6; }
   .borde-joaquin h3 { color: #0366d6; }
   
@@ -111,18 +108,10 @@ title: Referencias y Autores
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   }
-  .btn-nav.volver {
-    background-color: #6a737d;
-  }
-  .btn-nav.volver:hover {
-    background-color: #586069;
-  }
-  .btn-nav.anterior {
-    background-color: #2ea44f; /* Verde, porque viene de Informática Ecológica */
-  }
-  .btn-nav.anterior:hover {
-    background-color: #22863a;
-  }
+  .btn-nav.volver { background-color: #6a737d; }
+  .btn-nav.volver:hover { background-color: #586069; }
+  .btn-nav.anterior { background-color: #2ea44f; }
+  .btn-nav.anterior:hover { background-color: #22863a; }
 </style>
 
 <div markdown="1">
@@ -132,24 +121,23 @@ title: Referencias y Autores
 # Referencias y Autores
 
 <div class="caja-morada">
-  La realización de este proyecto de investigación ha requerido la consulta de diversas fuentes bibliográficas, bases de datos sobre sostenibilidad y la aplicación de metodologías de trabajo colaborativo mediante el control de versiones en GitHub.
+  Para hacer este trabajo nos hemos organizado en equipo, repartiéndonos los diferentes puntos. Hemos buscado información en internet y utilizado herramientas colaborativas como GitHub para montar esta página web.
 </div>
 
 </div>
 
 <div class="retraso-2" markdown="1">
 
-## Fuentes de Investigación y Referencias
+## Referencias y Herramientas utilizadas
 
-Toda la información, datos y cifras expuestos a lo largo de este proyecto han sido extraídos, contrastados y adaptados de las siguientes fuentes documentales y plataformas libres:
+Aquí dejamos de dónde hemos sacado la información y las herramientas que nos han ayudado a darle forma al proyecto:
 
 <div class="lista-referencias" markdown="1">
 
-* **Naciones Unidas (ONU) Medio Ambiente:** Informes sobre el impacto de los residuos electrónicos globales (E-Waste Monitor).
-* **Greenpeace Internacional:** Documentación sobre la obsolescencia programada y su impacto en la huella de carbono tecnológica.
-* **Unsplash & Pexels:** Repositorios de imágenes libres de derechos de autor utilizadas para ilustrar los diferentes apartados.
-* **Asistencia por IA:** Se ha utilizado asistencia de modelos de lenguaje (ChatGPT) para la estructuración avanzada en Markdown, generación de código CSS y revisión ortotipográfica del texto.
-* **Documentación de GitHub Pages:** Guías oficiales para la implementación de sitios web estáticos y diseño *responsive*.
+* **Búsqueda de información:** Artículos de divulgación tecnológica y páginas sobre medio ambiente buscadas a través de Google.
+* **Imágenes:** Para cumplir con el requisito de las imágenes, hemos usado fotografías gratuitas de la plataforma [Unsplash](https://unsplash.com/).
+* **Uso de IA:** Tal y como permitían las normas del proyecto, hemos utilizado **ChatGPT** para ayudarnos a organizar los textos, corregir faltas y generar el código CSS (animaciones y colores) para darle un toque más profesional a la página.
+* **Plataforma:** Repositorio creado en **GitHub** y web subida mediante GitHub Pages.
 
 </div>
 
@@ -157,33 +145,30 @@ Toda la información, datos y cifras expuestos a lo largo de este proyecto han s
 
 <div class="retraso-3" markdown="1">
 
-## Equipo de Trabajo y Autores
+## Equipo de Trabajo
 
-Este proyecto cumple con el criterio de **"Trabajo colaborativo en grupos diferentes"**. El desarrollo de la plataforma web `informática-ambiental` se ha dividido metodológicamente de la siguiente manera:
+Este proyecto lo hemos desarrollado entre tres personas. Así es como nos hemos dividido el trabajo:
 
 <div class="grid-autores" markdown="1">
 
 <div class="tarjeta-autor borde-joaquin" markdown="1">
 ### Joaquín
-**Desarrollo Inicial y Estructura**
-* Configuración del repositorio y menú de navegación lateral.
-* **Punto 1:** Investigación sobre la contaminación ambiental.
-* **Punto 2:** Desarrollo del apartado sobre residuos informáticos y toxicidad.
+* Creación del repositorio y montaje del índice lateral.
+* Búsqueda y redacción del **Punto 1** (Contaminación ambiental).
+* Búsqueda y redacción del **Punto 2** (Residuos informáticos).
 </div>
 
 <div class="tarjeta-autor borde-alvaro" markdown="1">
 ### Álvaro
-**Análisis y Soluciones**
-* **Punto 3:** Investigación profunda sobre la obsolescencia programada.
-* **Punto 4:** Desarrollo del apartado de Informática Ecológica (Green Computing) y medidas sostenibles.
+* Búsqueda y redacción del **Punto 3** (Obsolescencia programada).
+* Búsqueda y redacción del **Punto 4** (Informática ecológica).
+* Añadir medidas y soluciones para evitar la contaminación.
 </div>
 
 <div class="tarjeta-autor borde-juan" markdown="1">
 ### Juan Antonio
-**Documentación y Cierre**
-* **Punto 5:** Recopilación de fuentes, formato final de referencias.
-* Revisión de los criterios de la rúbrica de evaluación.
-* Auditoría de diseño y coherencia visual del proyecto.
+* Redacción del **Punto 5** (Referencias y Autores).
+* Comprobación de que cumplimos todos los criterios de la nota.
 </div>
 
 </div>
