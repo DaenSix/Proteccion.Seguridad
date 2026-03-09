@@ -36,7 +36,7 @@ Este fenómeno es muy común en dispositivos electrónicos como teléfonos móvi
 ordenadores, impresoras y otros aparatos tecnológicos.
 </p>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Planned_obsolescence.png" width="500">
+<img src="https://lamenteesmaravillosa.com/wp-content/uploads/2017/11/moviles-desechandose-420x263.png?auto=format%2Ccompress&quality=75&width=640&height=360&fit=cover&gravity=center&sharp=true&progressive=true" width="500">
 
 <hr>
 
@@ -51,7 +51,7 @@ ordenadores, impresoras y otros aparatos tecnológicos.
 <li>Ordenadores que se vuelven lentos con nuevas versiones de programas.</li>
 </ul>
 
-<img src="https://media.licdn.com/dms/image/v2/C4D12AQFsB5DniJ7QwA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1548210167592?e=2147483647&v=beta&t=HUSrL5nux330hCt5o1qwqTs9DMdvevFo20OdUxr8vHY">
+<img src="https://media.licdn.com/dms/image/v2/C4D12AQFsB5DniJ7QwA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1548210167592?e=2147483647&v=beta&t=HUSrL5nux330hCt5o1qwqTs9DMdvevFo20OdUxr8vHY" width="500">
 
 <hr>
 
