@@ -107,7 +107,7 @@ title: Protección Medioambiental
 # Proyecto 1: Protección Medioambiental
 
 <div class="caja-animada">
-  <strong>Misión del Proyecto:</strong> En este espacio analizaremos el impacto crítico de la tecnología en nuestro planeta. Exploraremos qué es la contaminación ambiental, cómo nos ahogan los residuos informáticos, la trampa de la obsolescencia programada y cómo la informática ecológica es nuestra mejor herramienta para un futuro sostenible.
+  <strong>Objetivo del Proyecto:</strong> En este espacio analizaremos el impacto crítico de la tecnología en nuestro planeta. Exploraremos qué es la contaminación ambiental, cómo nos ahogan los residuos informáticos, la trampa de la obsolescencia programada y cómo la informática ecológica es nuestra mejor herramienta para un futuro sostenible.
 </div>
 
 </div>
@@ -116,7 +116,6 @@ title: Protección Medioambiental
 
 ## Criterios de Calificación
 
-*(La tabla ahora cargará perfectamente)*
 
 | Nº | Criterio | Puntuación |
 |----|----------|------------|
@@ -132,7 +131,7 @@ title: Protección Medioambiental
 
 ---
 
-## Índice Interactivo
+## Índice Secundario
 
 Selecciona el apartado que deseas explorar:
 
