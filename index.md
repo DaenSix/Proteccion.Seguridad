@@ -3,12 +3,45 @@ layout: default
 title: Protección Medioambiental
 ---
 
+<style>
+  /* Animación de entrada para toda la página */
+  .animado {
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  /* Estilo chulo para los botones del índice */
+  .indice-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #2ea44f;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+  }
+  .indice-link:hover {
+    transform: scale(1.05);
+    background-color: #22863a;
+  }
+</style>
+
+<div class="animado" markdown="1">
+
 # 🌍 Proyecto 1: Protección Medioambiental
 
 ---
 
 ## 📝 Criterios de Calificación
 
+<details>
+  <summary>👉 <b>Haz clic aquí para ver los criterios de calificación</b></summary>
+  <br>
+  
 | Nº | Criterio | Puntuación |
 |----|----------|------------|
 | 1 | Estructura completa: **Título, Índice, Referencias y Autores** | 1 punto |
@@ -17,58 +50,19 @@ title: Protección Medioambiental
 | 4 | Uso de características de **Markdown no vistas en clase** | 1 punto |
 | 5 | Trabajo colaborativo en grupos diferentes | Obligatorio |
 
----
-
-## 📚 Índice
-
-1. [¿Qué es la contaminación ambiental?](#que-es-la-contaminacion-ambiental)
-2. [Residuos informáticos](#residuos-informaticos)
-3. [Obsolescencia programada](#obsolescencia-programada)
-4. [Informática ecológica](#informatica-ecologica)
-5. [Referencias](#referencias)
-6. [Autores](#autores)
+</details>
 
 ---
 
-## Que es la contaminacion ambiental
+## 📚 Índice Interactivo
 
-La contaminación ambiental es el deterioro del medio ambiente causado por la introducción de sustancias o materiales que son dañinos para el aire, el agua o el suelo.
+Elige una sección para comenzar a explorar (cada enlace te llevará a una nueva página):
 
-<p align="center">
-  <img src="suelo_746x419.jpg" width="600">
-</p>
-
-La contaminación afecta a animales, plantas e incluso a las personas, provocando problemas de salud con el tiempo y contribuyendo al cambio climático.  
-Es importante aplicar medidas como reciclar y usar los recursos de forma responsable y renovable.
-
----
-
-## Residuos informaticos
-
-(Contenido aquí)
+<a href="contaminacion.html" class="indice-link">☁️ 1. ¿Qué es la contaminación ambiental?</a><br>
+<a href="residuos.html" class="indice-link">💻 2. Residuos informáticos</a><br>
+<a href="obsolescencia.html" class="indice-link">⏱️ 3. Obsolescencia programada</a><br>
+<a href="ecologica.html" class="indice-link">🌱 4. Informática ecológica</a><br>
+<a href="referencias_autores.html" class="indice-link">👥 5. Referencias y Autores</a>
 
 ---
-
-## Obsolescencia programada
-
-(Contenido aquí)
-
----
-
-## Informatica ecologica
-
-(Contenido aquí)
-
----
-
-## Referencias
-
-(Añadir enlaces aquí)
-
----
-
-## Autores
-
-(Añadir nombres aquí)
-
----
+</div>
