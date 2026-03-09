@@ -1,29 +1,116 @@
----
-layout: default
-title: Obsolescencia Programada
----
+<!DOCTYPE html>
+<html lang="es">
 
-<style>
-  body { animation: fadeIn 1s ease-in; }
-  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-  .highlight { background-color: #ffe082; padding: 2px 5px; border-radius: 3px; color: black; }
-</style>
+<head>
+<meta charset="UTF-8">
+<title>Obsolescencia Programada</title>
+</head>
 
-# ⏱️ Obsolescencia Programada
+<body>
 
-La <span class="highlight">obsolescencia programada</span> es la estrategia empresarial mediante la cual se diseña un producto con una vida útil artificialmente limitada. Esto significa que el producto fallará o quedará obsoleto tras un período de tiempo calculado de antemano.
+<h1>Obsolescencia Programada</h1>
+<p>Proyecto sobre informática y medio ambiente</p>
 
-### ¿Por qué lo hacen?
-El objetivo principal es forzar al consumidor a **comprar un producto nuevo**, manteniendo así el ciclo de consumo y los beneficios económicos de las empresas.
+<hr>
 
-### Ejemplos comunes:
-1. Impresoras que dejan de funcionar al llegar a un número concreto de copias.
-2. Baterías de móviles que no se pueden extraer ni cambiar fácilmente.
-3. Actualizaciones de software (SO) que hacen que los teléfonos antiguos vayan más lentos.
+<h2>Índice</h2>
+<ul>
+<li><a href="#quees">¿Qué es la obsolescencia programada?</a></li>
+<li><a href="#ejemplos">Ejemplos</a></li>
+<li><a href="#impacto">Impacto ambiental</a></li>
+<li><a href="#soluciones">Soluciones</a></li>
+</ul>
 
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1590212151175-e58edd96185b?q=80&w=600&auto=format&fit=crop" width="600" style="border-radius: 10px; box-shadow: 0px 5px 15px rgba(0,0,0,0.3);" alt="Reloj y tecnología">
+<hr>
+
+<h2 id="quees">¿Qué es la obsolescencia programada?</h2>
+
+<p>
+La obsolescencia programada es una estrategia utilizada por algunas empresas para diseñar productos
+con una vida útil limitada. Esto significa que los dispositivos dejan de funcionar correctamente
+o se vuelven obsoletos después de cierto tiempo, obligando a los consumidores a comprar uno nuevo.
 </p>
 
+<p>
+Este fenómeno es muy común en dispositivos electrónicos como teléfonos móviles,
+ordenadores, impresoras y otros aparatos tecnológicos.
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Planned_obsolescence.png" width="500">
+
+<hr>
+
+<h2 id="ejemplos">Ejemplos de obsolescencia programada</h2>
+
+<p>Algunos ejemplos comunes son:</p>
+
+<ul>
+<li>Baterías de teléfonos móviles que duran pocos años.</li>
+<li>Impresoras que dejan de funcionar después de cierto número de impresiones.</li>
+<li>Software que deja de recibir actualizaciones.</li>
+<li>Ordenadores que se vuelven lentos con nuevas versiones de programas.</li>
+</ul>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Electronic_waste.jpg" width="500">
+
+<hr>
+
+<h2 id="impacto">Impacto ambiental</h2>
+
+<p>
+La obsolescencia programada genera un aumento de residuos electrónicos.
+Cada año se tiran millones de dispositivos que todavía podrían repararse.
+</p>
+
+<p>
+Muchos de estos aparatos contienen materiales peligrosos como:
+</p>
+
+<ul>
+<li>Plomo</li>
+<li>Mercurio</li>
+<li>Cadmio</li>
+</ul>
+
+<p>
+Si estos residuos no se reciclan correctamente pueden contaminar el
+medio ambiente.
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Obsolescence.jpg" width="500">
+
+<hr>
+
+<h2 id="soluciones">Soluciones</h2>
+
+<p>Para reducir la obsolescencia programada se pueden aplicar varias medidas:</p>
+
+<ul>
+<li>Reparar los dispositivos en lugar de tirarlos.</li>
+<li>Comprar productos de mayor calidad.</li>
+<li>Reciclar correctamente los aparatos electrónicos.</li>
+<li>Promover leyes que apoyen el derecho a reparar.</li>
+</ul>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Green_computing.jpg" width="500">
+
+<hr>
+
+<h2>Referencias</h2>
+
+<ul>
+<li>https://es.wikipedia.org/wiki/Obsolescencia_programada</li>
+<li>https://www.greenpeace.org</li>
+<li>https://www.nationalgeographic.com</li>
+</ul>
+
+<hr>
+
+<h2>Autores</h2>
+<p>Nombre del alumno</p>
+<p>Asignatura: Informática</p>
+
+</body>
+</html>
 ---
 [⬅️ Volver al Índice Principal](index.html)
