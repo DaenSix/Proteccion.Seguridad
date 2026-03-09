@@ -14,103 +14,72 @@ title: Residuos Informáticos
   .retraso-3 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.4s forwards; }
   .retraso-4 { opacity: 0; animation: fadeInUp 0.8s ease-out 0.6s forwards; }
 
-  /* --- CAJA TEMÁTICA GRIS (Residuos = Hardware/Metales) --- */
-  .caja-gris {
-    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
-    border-left: 6px solid #586069;
+  /* --- MINI ÍNDICE INTERNO --- */
+  .mini-indice {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 5px solid #586069;
+  }
+  .mini-indice h4 { margin-top: 0; color: #24292e; font-size: 1.2em; }
+  .mini-indice ul { list-style: none; padding-left: 0; }
+  .mini-indice li { margin: 8px 0; }
+  .mini-indice a { color: #0366d6; text-decoration: none; font-weight: 500; }
+  .mini-indice a:hover { text-decoration: underline; color: #586069; }
+
+  /* --- CAJA TEMÁTICA GRIS --- */
+  .caja-gris {
+    background: linear-gradient(135deg, #f6f8fa 0%, #e1e4e8 100%);
+    border-left: 6px solid #586069;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
     color: #24292e;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    font-size: 1.1em;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   /* --- ESTILO DE IMÁGENES --- */
   .img-estilo {
     border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     display: block;
-    margin: 20px auto;
-  }
-  .img-estilo:hover {
-    transform: scale(1.02);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
   }
 
-  /* --- TARJETAS DE METALES TÓXICOS (GRID) --- */
+  /* --- GRID DE TARJETAS TÓXICAS --- */
   .grid-metales {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    margin: 25px 0;
+    margin: 30px 0;
   }
   .tarjeta-metal {
     background: #ffffff;
-    border: 1px solid #e1e4e8;
+    border: 1px solid #d1d5da;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
-    border-top: 4px solid #586069;
-    transition: transform 0.3s;
+    border-radius: 10px;
+    border-top: 5px solid #586069;
+    transition: all 0.3s ease;
   }
   .tarjeta-metal:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(88, 96, 105, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   }
+  .tarjeta-metal h3 { margin-top: 0; color: #444d56; }
 
-  /* --- CITA DESTACADA --- */
-  .cita-destacada {
-    background-color: #fafbfc;
-    border-left: 4px solid #d1d5da;
-    padding: 15px 20px;
-    font-style: italic;
-    color: #586069;
-    margin: 30px 0;
-    font-size: 1.1em;
-  }
-
-  /* --- BOTONES DE NAVEGACIÓN INFERIOR --- */
-  .nav-botones {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 50px;
-    border-top: 2px solid #eaecef;
-    padding-top: 20px;
-  }
-  .btn-nav {
-    padding: 12px 20px;
-    background-color: #586069;
-    color: white !important;
-    text-decoration: none;
+  /* --- SECCIONES DE TEXTO --- */
+  .seccion-contenido { margin-bottom: 50px; }
+  .destacado-texto {
+    background-color: #fff9db;
+    padding: 15px;
     border-radius: 6px;
-    font-weight: bold;
-    transition: all 0.3s;
-    text-align: center;
-    flex: 1;
-    margin: 0 5px;
-    min-width: 150px;
-  }
-  .btn-nav:hover {
-    background-color: #444d56;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  }
-  .btn-nav.volver {
-    background-color: #6a737d; /* Gris más claro para los botones de retroceso */
-  }
-  .btn-nav.volver:hover {
-    background-color: #586069;
-  }
-  .btn-nav.siguiente {
-    background-color: #d73a49; /* Color ROJO preparado para la sección de Obsolescencia de Álvaro */
-  }
-  .btn-nav.siguiente:hover {
-    background-color: #cb2431;
+    border: 1px solid #ffe066;
+    margin: 20px 0;
   }
 </style>
 
@@ -120,66 +89,104 @@ title: Residuos Informáticos
 
 # Residuos informáticos (E-Waste)
 
+<div class="mini-indice">
+  <h4>Navegación rápida:</h4>
+  <ul>
+    <li><a href="#que-es">1. Definición y Clasificación del E-Waste</a></li>
+    <li><a href="#componentes">2. Componentes Críticos y Toxicidad</a></li>
+    <li><a href="#impacto">3. El Viaje de la Basura: Impacto Global</a></li>
+    <li><a href="#soluciones">4. Ciclo de Reciclaje y Soluciones</a></li>
+  </ul>
+</div>
+
+<div id="que-es" class="seccion-contenido" markdown="1">
+
+## 1. Definición y Clasificación del E-Waste
+
 <div class="caja-gris">
-  Los <strong>residuos informáticos</strong>, conocidos internacionalmente como <em>E-Waste</em> (Electronic Waste), abarcan todos aquellos dispositivos electrónicos, ordenadores, teléfonos móviles, baterías y periféricos que han llegado al final de su vida útil y son desechados.
+  Se considera <strong>residuo electrónico o E-Waste</strong> a cualquier dispositivo que funcione con corriente eléctrica o baterías y que su dueño decide desechar. No solo hablamos de ordenadores; hoy en día, desde un cepillo de dientes eléctrico hasta un servidor de datos gigante entran en esta categoría.
 </div>
 
-<img src="https://images.unsplash.com/photo-1550041526-70e2815152a5?q=80&w=800&auto=format&fit=crop" width="800" class="img-estilo" alt="Montaña de placas base y residuos electrónicos">
+El crecimiento de estos residuos es exponencial. Según el *Global E-waste Monitor*, generamos más de **62 millones de toneladas** al año, y lo peor es que esta cifra sube un 82% más rápido de lo que sube nuestra capacidad para reciclarlos.
+
+Podemos clasificar los residuos informáticos en tres grandes grupos:
+* **Equipos de informática y telecomunicaciones:** Servidores, portátiles, tablets y móviles.
+* **Periféricos y accesorios:** Teclados, ratones, cables, cargadores y auriculares.
+* **Electrónica de consumo:** Monitores, televisores y dispositivos inteligentes (IoT).
+
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/E-waste_in_a_dumpster.jpg/800px-E-waste_in_a_dumpster.jpg" class="img-estilo" alt="Contenedor lleno de residuos electrónicos variados">
 
 </div>
 
-<div class="retraso-2" markdown="1">
+</div>
 
-## El Gran Problema: La Toxicidad Oculta
+<div id="componentes" class="retraso-2 seccion-contenido" markdown="1">
 
-A diferencia de la basura común, los dispositivos tecnológicos están compuestos por una compleja mezcla de materiales. Aunque contienen elementos valiosos como oro, plata y cobre, también albergan **metales pesados altamente tóxicos**. 
+## 2. Componentes Críticos y Toxicidad
 
-
-
-Si estos residuos acaban en vertederos comunes y no se reciclan adecuadamente, los componentes se degradan y liberan toxinas al suelo y a las aguas subterráneas:
+Un ordenador moderno es una "joya química". Contiene metales preciosos como **oro, plata y paladio**, pero para que funcionen, también necesitan elementos que, fuera de su carcasa, son venenosos.
 
 <div class="grid-metales" markdown="1">
 
 <div class="tarjeta-metal" markdown="1">
-### Plomo
-Utilizado tradicionalmente en soldaduras y monitores antiguos. Su acumulación en el cuerpo humano daña gravemente el sistema nervioso central y los riñones.
+### Plomo y Antimonio
+Se encuentran principalmente en las soldaduras de las placas base y en los tubos de monitores antiguos. Son peligrosos para la sangre y el sistema reproductor.
 </div>
 
 <div class="tarjeta-metal" markdown="1">
-### Mercurio
-Presente en pantallas planas, interruptores y baterías. Es altamente volátil; contamina los ecosistemas acuáticos y afecta al desarrollo cerebral.
+### Mercurio y Arsénico
+Presentes en interruptores, bombillas de retroiluminación de pantallas LCD y algunos procesadores. Son potentes neurotóxicos que contaminan el agua potable.
 </div>
 
 <div class="tarjeta-metal" markdown="1">
-### Cadmio
-Común en baterías recargables antiguas y semiconductores. Es un elemento cancerígeno y altamente tóxico para los pulmones.
+### Retardantes de llama
+Plásticos tratados con bromo para que los cables no ardan. Al quemarse en vertederos, liberan dioxinas que se quedan en el aire y los pulmones.
 </div>
 
 </div>
 
 </div>
 
-<div class="retraso-3" markdown="1">
+<div id="impacto" class="retraso-3 seccion-contenido" markdown="1">
 
-## Minería Urbana: La Solución Necesaria
+## 3. El Viaje de la Basura: Impacto Global
 
-Ante la avalancha de dispositivos desechados, surge el concepto de **Minería Urbana**. Este proceso consiste en recuperar los metales preciosos y materiales reutilizables directamente de los aparatos electrónicos desechados, en lugar de extraerlos de minas naturales.
+Uno de los mayores escándalos de los residuos informáticos es su **transporte ilegal**. Muchos países desarrollados envían contenedores de "equipos usados para donar" a países en desarrollo (como Ghana, Nigeria o India). En realidad, son basura tecnológica inservible.
 
-<div class="cita-destacada">
-  "Se estima que cada año se generan más de 50 millones de toneladas de residuos electrónicos a nivel mundial, pero apenas se recicla el 20% de forma documentada y segura."
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Agbogbloshie_2019_10.jpg/800px-Agbogbloshie_2019_10.jpg" class="img-estilo" alt="Trabajadores en el vertedero de Agbogbloshie, Ghana">
+
+
+
+En estos lugares, miles de personas (incluidos niños) trabajan quemando plásticos para recuperar el cobre de los cables, exponiéndose a enfermedades crónicas y destruyendo el suelo local de forma permanente.
+
 </div>
 
-Recuperar estos materiales no solo evita la contaminación por toxinas, sino que reduce la inmensa huella de carbono asociada a la extracción de nuevos recursos naturales. Sin embargo, para que se generen tantos residuos en tan poco tiempo, existe un factor impulsado por la industria que nos obliga a cambiar de dispositivos constantemente: **la obsolescencia programada**.
+<div id="soluciones" class="retraso-4 seccion-contenido" markdown="1">
 
+## 4. Ciclo de Reciclaje y Soluciones
+
+El reciclaje de un ordenador no es como el de un cartón. Sigue un proceso complejo:
+1.  **Recogida:** Los usuarios llevan el equipo al **Punto Limpio**.
+2.  **Descontaminación:** Se extraen manualmente las baterías, cartuchos de tinta y componentes con mercurio.
+3.  **Trituración:** El resto se tritura en pequeñas piezas.
+4.  **Separación electromagnética:** Mediante imanes y corrientes de aire, se separan los plásticos de los metales (hierro, aluminio, cobre y metales preciosos).
+
+
+
+[Image of electronic waste recycling process flowchart]
+
+
+<div class="destacado-texto">
+  <strong>¿Qué podemos hacer nosotros?</strong> Lo más importante es alargar la vida útil del equipo. Si un PC va lento, podemos ampliar la RAM o poner un disco SSD en lugar de comprar uno nuevo. Si realmente ya no sirve, el 100% debe ir a una planta de tratamiento autorizada.
 </div>
-
-<div class="retraso-4" markdown="1">
 
 ---
 
 <div class="nav-botones">
-  <a href="contaminacion.html" class="btn-nav volver">⬅️ Anterior</a>
-  <a href="index.html" class="btn-nav volver">🏠 Índice</a>
+  <a href="contaminacion.html" class="btn-nav volver">⬅️ Anterior: Contaminación</a>
+  <a href="index.html" class="btn-nav volver">🏠 Inicio</a>
   <a href="obsolescencia.html" class="btn-nav siguiente">Siguiente: Obsolescencia ➡️</a>
 </div>
 
