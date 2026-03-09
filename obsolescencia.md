@@ -107,10 +107,11 @@ medio ambiente.
 <hr>
 
 <h2>Autores</h2>
-<p>Nombre del alumno</p>
-<p>Asignatura: Informática</p>
+<p>Álvaro García</p>
 
 </body>
 </html>
+
+
 ---
 [⬅️ Volver al Índice Principal](index.html)
