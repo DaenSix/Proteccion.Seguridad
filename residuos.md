@@ -155,7 +155,7 @@ Plásticos tratados con bromo para que los cables no ardan. Al quemarse en verte
 
 Uno de los mayores escándalos de los residuos informáticos es su **transporte ilegal**. Muchos países desarrollados envían contenedores de "equipos usados para donar" a países en desarrollo (como Ghana, Nigeria o India). En realidad, son basura tecnológica inservible.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Agbogbloshie_2019_10.jpg/800px-Agbogbloshie_2019_10.jpg" class="img-estilo" alt="Trabajadores en el vertedero de Agbogbloshie, Ghana">
+<img src="giga.jpg" class="img-estilo" alt="Trabajadores en el vertedero de Agbogbloshie, Ghana">
 
 
 
