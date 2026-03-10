@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -18,140 +17,144 @@
       --radius:14px;
     }
 
-  *{box-sizing:border-box}
-  body{
-   margin:0;
-  font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
-  background: radial-gradient(circle at top right, #d1fae5 0%, var(--bg) 35%);
-  color:var(--text);
-  line-height:1.65;
-  }
+ *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+      background: radial-gradient(circle at top right, #d1fae5 0%, var(--bg) 35%);
+      color:var(--text);
+      line-height:1.65;
+    }
 
-   .container{max-width:1100px;margin:auto;padding:28px 20px 60px}
- .hero{
-   background:linear-gradient(135deg,#0f766e,#115e59);
-  color:#fff;
-   padding:32px;
-  border-radius:20px;
-  box-shadow:var(--shadow);
-  animation:fadeUp .8s ease both;
-  }
-  .hero h1{margin:0 0 10px;font-size:clamp(1.8rem,3vw,2.6rem)}
-  .hero p{margin:0;opacity:.95}
+.container{max-width:1100px;margin:auto;padding:28px 20px 60px}
+    .hero{
+      background:linear-gradient(135deg,#0f766e,#115e59);
+      color:#fff;
+      padding:32px;
+      border-radius:20px;
+      box-shadow:var(--shadow);
+      animation:fadeUp .8s ease both;
+    }
+    .hero h1{margin:0 0 10px;font-size:clamp(1.8rem,3vw,2.6rem)}
+    .hero p{margin:0;opacity:.95}
 
-  .toc,.card{
-   background:var(--card);
-   border:1px solid #e5e7eb;
-   border-radius:var(--radius);
-   padding:22px;
-   margin-top:20px;
-   box-shadow:var(--shadow);
-  animation:fadeUp .8s ease both;
-  }
+.toc,.card{
+      background:var(--card);
+      border:1px solid #e5e7eb;
+      border-radius:var(--radius);
+      padding:22px;
+      margin-top:20px;
+      box-shadow:var(--shadow);
+      animation:fadeUp .8s ease both;
+    }
 
 .toc h2,.card h2{margin:0 0 12px;color:#0f766e}
-.toc a{color:#0f766e;text-decoration:none}
-.toc a:hover{text-decoration:underline}
+    
+/* Estilos específicos para los enlaces del índice */
+    .toc ul { padding-left: 20px; margin: 0; }
+    .toc li { margin-bottom: 8px; }
+    .toc a { color:#0f766e; text-decoration:none; font-weight: 500; }
+    .toc a:hover { text-decoration:underline; color:#115e59; }
 
 .highlight{
-   border-left:6px solid var(--green-2);
-   background:#ecfeff;
-   padding:14px 16px;
-   border-radius:10px;
-   color:#0f172a;
-   margin:10px 0 18px;
-   }
+      border-left:6px solid var(--green-2);
+      background:#ecfeff;
+      padding:14px 16px;
+      border-radius:10px;
+      color:#0f172a;
+      margin:10px 0 18px;
+    }
 
 .grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:16px;
-  }
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
 
-  .mini{
-  border:1px solid var(--line);
-  border-top:4px solid var(--green);
-  border-radius:10px;
-  padding:14px;
-  background:#fff;
-   }
+.mini{
+      border:1px solid var(--line);
+      border-top:4px solid var(--green);
+      border-radius:10px;
+      padding:14px;
+      background:#fff;
+    }
 
-   .images,
-   .images-principios,
- .images-acciones{
-   display:grid;
-   grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-   gap:14px;
-   margin-top:14px;
-   }
+.images,
+    .images-principios,
+    .images-acciones{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+      gap:14px;
+      margin-top:14px;
+    }
 
-   .images img{
-   width:70%;
-   height:auto;
-   object-fit:cover;
-   border-radius:12px;
-   box-shadow:0 6px 14px rgba(0,0,0,.12);
-   transition:transform .25s ease;
-   margin: auto;
-  }
+.images img{
+      width:70%;
+      height:auto;
+      object-fit:cover;
+      border-radius:12px;
+      box-shadow:0 6px 14px rgba(0,0,0,.12);
+      transition:transform .25s ease;
+      margin: auto;
+    }
     
-  .images-acciones img{
-  width:100%;
-  height:250px;
-  object-fit:cover;
-  border-radius:12px;
-  box-shadow:0 6px 14px rgba(0,0,0,.12);
-  transition:transform .25s ease;
-  }
+.images-acciones img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+      border-radius:12px;
+      box-shadow:0 6px 14px rgba(0,0,0,.12);
+      transition:transform .25s ease;
+    }
     
- .images-principios img{
-  width:100%;
-  height:300px;
-  object-fit:cover;
-   border-radius:12px;
-   box-shadow:0 6px 14px rgba(0,0,0,.12);
-   transition:transform .25s ease;
-   }
-  .images img:hover,
-  .images-principios img:hover,
-  .images-acciones img:hover{transform:scale(1.02)}
+.images-principios img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+      border-radius:12px;
+      box-shadow:0 6px 14px rgba(0,0,0,.12);
+      transition:transform .25s ease;
+    }
+    .images img:hover,
+    .images-principios img:hover,
+    .images-acciones img:hover{transform:scale(1.02)}
 
-blockquote{
-  margin:16px 0;
-  padding:12px 16px;
-  border-left:4px solid #14b8a6;
-  background:#f0fdfa;
-  color:#134e4a;
-  border-radius:8px;
-  font-style:italic;
-  }
+ blockquote{
+      margin:16px 0;
+      padding:12px 16px;
+      border-left:4px solid #14b8a6;
+      background:#f0fdfa;
+      color:#134e4a;
+      border-radius:8px;
+      font-style:italic;
+    }
 
 .meta{color:var(--muted);font-size:.96rem}
-.nav{
-   margin-top:24px;
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  }
-  .btn{
-  flex:1;
-  min-width:180px;
-  text-align:center;
-  text-decoration:none;
-  color:#fff;
-  background:#0f766e;
-  padding:12px 14px;
-   border-radius:10px;
-  font-weight:600;
-   }
-  .btn:hover{background:#115e59}
-  .btn.alt{background:#6b7280}
-  .btn.alt:hover{background:#4b5563}
+    .nav{
+      margin-top:24px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    .btn{
+      flex:1;
+      min-width:180px;
+      text-align:center;
+      text-decoration:none;
+      color:#fff;
+      background:#0f766e;
+      padding:12px 14px;
+      border-radius:10px;
+      font-weight:600;
+    }
+    .btn:hover{background:#115e59}
+    .btn.alt{background:#6b7280}
+    .btn.alt:hover{background:#4b5563}
 
-  @keyframes fadeUp{
-  from{opacity:0;transform:translateY(14px)}
-  to{opacity:1;transform:translateY(0)}
-  }
+@keyframes fadeUp{
+      from{opacity:0;transform:translateY(14px)}
+      to{opacity:1;transform:translateY(0)}
+    }
   </style>
 </head>
 <body>
@@ -161,7 +164,19 @@ blockquote{
       <p>Tecnología eficiente, responsable y sostenible para reducir el impacto ambiental digital.</p>
     </div>
 
-  <div class="card" id="que-es">
+<div class="toc">
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#que-es">¿Qué es la informática ecológica?</a></li>
+        <li><a href="#principios">Principios clave</a></li>
+        <li><a href="#acciones">Acciones prácticas</a></li>
+        <li><a href="#impacto">Impacto positivo</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+        <li><a href="#autores">Autores</a></li>
+      </ul>
+    </div>
+
+<div class="card" id="que-es">
       <h2>¿Qué es la informática ecológica?</h2>
       <div class="highlight">
         La informática ecológica reúne estrategias para diseñar, usar, mantener y reciclar tecnología con menor consumo energético, menos residuos y menor huella de carbono.<br>
@@ -172,7 +187,7 @@ blockquote{
       </div>
     </div>
 
-  <div class="card" id="principios">
+<div class="card" id="principios">
       <h2>Principios clave</h2>
       <div class="grid">
         <div class="mini"><strong>Eficiencia energética:</strong> reducir el consumo en dispositivos y servidores.</div>
@@ -181,13 +196,13 @@ blockquote{
         <div class="mini"><strong>Gestión RAEE:</strong> reciclaje seguro de residuos electrónicos.</div>
       </div>
       
-  <div class="images-principios">
+<div class="images-principios">
         <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=1200&auto=format&fit=crop" alt="Energías renovables">
         <img src="https://images.unsplash.com/photo-1666804830091-56ba0e22becf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Economía circular">
       </div>
     </div>
 
-  <div class="card" id="acciones">
+<div class="card" id="acciones">
       <h2>Acciones prácticas</h2>
       <ul>
         <li>Activar modos de ahorro y apagado automático en equipos.</li>
@@ -200,7 +215,7 @@ blockquote{
         <img src="https://plus.unsplash.com/premium_photo-1681433419747-f5c114430ab5?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modo Ahorro">
       </div>
       
-  <blockquote>“La tecnología más sostenible es la que dura más y consume menos.”</blockquote>
+<blockquote>“La tecnología más sostenible es la que dura más y consume menos.”</blockquote>
     </div>
 
 <div class="card" id="impacto">
@@ -235,7 +250,7 @@ blockquote{
   </p>
 </div>
 
-  <div class="card" id="referencias">
+<div class="card" id="referencias">
       <h2>Referencias</h2>
       <ol>
         <li><a href="https://evernex.com/es/blog-es/la-creciente-importancia-de-la-it-ecologica/" target="_blank" rel="noopener">Evernex</a></li>
@@ -245,12 +260,12 @@ blockquote{
       </ol>
     </div>
 
-  <div class="card" id="autores">
+<div class="card" id="autores">
 		
 <h2>Autores</h2>
 		<p>Juan Antonio Fernández</p>
     
-  <div class="nav">
+<div class="nav">
         <a class="btn alt" href="obsolescencia.html">⬅ Anterior</a>
         <a class="btn alt" href="index.html">🏠 Índice</a>
       </div>
