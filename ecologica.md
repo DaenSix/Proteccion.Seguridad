@@ -250,15 +250,7 @@
   </p>
 </div>
 
-<div class="card" id="referencias">
-      <h2>Referencias</h2>
-      <ol>
-        <li><a href="https://evernex.com/es/blog-es/la-creciente-importancia-de-la-it-ecologica/" target="_blank" rel="noopener">Evernex</a></li>
-        <li><a href="https://nexteducacion.com/noticias/tecnologia-verde-innovaciones-que-estan-salvando-el-planeta/" target="_blank" rel="noopener">NextEducacion</a></li>
-        <li><a href="https://www.unep.org/" target="_blank" rel="noopener">UNEP - Global E-waste Monitor</a></li>
-        <li><a href="https://www.energystar.gov/" target="_blank" rel="noopener">ENERGY STAR</a></li>
-      </ol>
-    </div>
+
 
 <div class="card" id="autores">
 		
