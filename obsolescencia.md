@@ -158,7 +158,7 @@ title: Obsolescencia Programada - Análisis Tecnológico
 
 <div class="caja-destacada">
 
-La **obsolescencia programada** es una estrategia de diseño industrial mediante la cual un producto se fabrica con una **vida útil limitada de forma intencional**. Esto obliga al consumidor a reemplazarlo después de cierto tiempo, aumentando así las ventas y el consumo.
+La obsolescencia programada es una estrategia de diseño industrial mediante la cual un producto se fabrica con una vida útil limitada de forma intencional. Esto obliga al consumidor a reemplazarlo después de cierto tiempo, aumentando así las ventas y el consumo.
 
 </div>
 
@@ -171,7 +171,7 @@ Esto ocurre especialmente en productos tecnológicos como:
 - Impresoras  
 - Electrodomésticos  
 
-<img src="obsolescencia.jpg" width="700" class="img-centro" alt="Ejemplo de obsolescencia programada">
+<img src="https://noopranking.com/wp-content/uploads/2022/08/ciclo-plano-01-1.png">
 
 </div>
 
@@ -290,17 +290,13 @@ Comprar productos duraderos y reparar antes de reemplazar.
 
 <div class="nav">
 
-<a href="index.html" class="btn inicio">🏠 Inicio</a>
+<a href="index.html" class="btn inicio">🏠 Volver al Inicio</a>
 
-<a href="residuos.html" class="btn sig">Siguiente tema ➜</a>
-
-</div>
+<a href="residuos.html" class="btn sig">Siguiente: Informática ecológica ➜</a>
 
 </div>
 
 </div>
+
 </div>
-
-
----
-[⬅️ Volver al Índice Principal](index.html)
+</div>
